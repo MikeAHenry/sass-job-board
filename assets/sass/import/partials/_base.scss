@@ -1,0 +1,31 @@
+/* --- base --- */
+
+
+html {
+	min-height: 100%;
+	font-family: $font-stack;
+	font-size: 9pt;
+}
+
+body {
+	background: linear-gradient($light-background-color, $dark-background-color);
+	width: 960px;
+	margin: 40px auto;
+}
+
+h4 {
+	text-transform: uppercase;
+	font-size: $font-size-large;
+	margin: 0px 0px 10px 0px;
+}
+
+h5 {
+	text-transform: uppercase;
+	font-size: $font-size-medium;
+	margin: 3px 0px 0px;
+}
+
+a {
+	color: $link-color;
+	text-decoration: none;
+}

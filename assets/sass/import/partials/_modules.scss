@@ -1,0 +1,97 @@
+/* -- modules -- */
+
+.liveSearchInputGroup{
+	width: 35%;
+	display: inline-block;
+}
+
+/* placeholder */
+%liveSearchInputGroupObject {
+	display: block;
+	margin: 5px 0px;
+	width: 83%;
+}
+
+.liveSearchInputGroup label{
+	@extend %liveSearchInputGroupObject;
+}
+
+.liveSearchInputGroup input {
+	@extend %liveSearchInputGroupObject;
+	border: 0px;
+	border-radius: 5px;
+	padding: 8px 5%;
+	color: $text-color;
+}
+
+.resultsCaption {
+	color: $light-text-color;
+	display: block;
+	margin: 10px 0px;
+	font-size: 10pt;
+}
+
+.resultsTable {
+	text-align: left;
+	width: 100%;
+}
+
+.resultsTable th {
+	border-bottom: 2px solid $accent-color;
+	padding: 9px 0px;
+}
+
+.resultsTable td {
+	padding: 20px 0px 0px;
+}
+
+%contactFormObject {
+	display: block;
+	padding: 10px 0px 5px;
+	width: 90%;
+	font-family: $font-stack;
+}
+
+.l-contact-form label{
+	@extend %contactFormObject;
+}
+
+.l-contact-form input[type="text"], 
+.l-contact-form textarea {
+	@extend %contactFormObject;
+	background-color: $input-type-background-color;
+	border: 0px;
+	border-radius: 5px;
+	padding: 7px 4%;
+}
+
+.l-contact-form input[type="submit"] {
+	border: 0px;
+	margin: 15px 0px;
+	padding: 5px;
+	width: 70px;
+	border-radius: 5px;
+	background-color: $light-background-color;
+	color: $inverse-text-color;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+.button-1 {
+	float: right;
+	background-color: $light-text-color;
+	border-radius: 5px;
+	color: $inverse-text-color;
+	padding: 3px 12px;
+}
+
+.button-1:hover {
+	background-color: $accent-color;
+	color: $light-text-color;
+}
+
+
+.clearfix {
+	clear: both;
+}

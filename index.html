@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sassy Job Board</title>
+	<link rel="stylesheet" href="assets/css/main.css" type="text/css" >
+</head>
+<body>
+	
+	<!-- header -->
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Experiences</a></li>
+		</ul>
+	</nav>
+	
+	<!-- content -->
+	<article>
+		<!-- live search -->
+		<div class="l-livesearch">
+			<h4>Live Search</h4>
+			<form name="search_form">
+				<div class="liveSearchInputGroup">
+					<label for="location_search_input"><strong>Location</strong> (e.g. Boston)</label>
+					<input type="text" name="location_search" id="location_search_input">
+				</div>
+				<div class="liveSearchInputGroup">
+					<label for="keyword_search_input"><strong>Keyword</strong> (e.g. Web Developer)</label>
+					<input type="text" name="keyword_search" id="keyword_search_input">
+				</div>
+			</form>
+		</div>
+		<!-- results -->
+		<div class="l-container">
+			<div class="l-results-container">
+				<span class="resultsCaption">Search results for <strong>"Put name of search term here"</strong></span>
+				<table class="resultsTable">
+					<thead>
+						<tr>
+							<th >Location</th>
+							<th colspan="2">Description</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Name of Location</td>
+							<td>Description of Location and/or keywords</td>
+							<td><a class="button-1" href="#">View Now</a></td>
+						</tr>
+						<tr>
+							<td>Name of Location</td>
+							<td>Description of Location and/or keywords</td>
+							<td><a class="button-1" href="#">View Now</a></td>
+						</tr>
+						<tr>
+							<td>Name of Location</td>
+							<td>Description of Location and/or keywords</td>
+							<td><a class="button-1" href="#">View Now</a></td>
+						</tr>
+						<tr>
+							<td>Name of Location</td>
+							<td>Description of Location and/or keywords</td>
+							<td><a class="button-1" href="#">View Now</a></td>
+						</tr>
+						<tr>
+							<td>Name of Location</td>
+							<td>Description of Location and/or keywords</td>
+							<td><a class="button-1" href="#">View Now</a></td>
+						</tr>
+						<tr>
+							<td>Name of Location</td>
+							<td>Description of Location and/or keywords</td>
+							<td><a class="button-1" href="#">View Now</a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		
+			<!-- contact form -->
+			<div class="l-contact-form">
+				<h5>Contact Us</h5>
+				<form name="contact_form" action="#" method="post">
+					
+					<label for="name_input">Name:</label>
+					<input type="text" name="name" id="name_input">
+					
+					<label for="email_input">Email Address:</label>
+					<input type="text" name="email" id="email_input">
+					
+					<label for="comments_textarea">Comments:</label>
+					<textarea name="comments" rows="7" cols="30" id="comments_textarea"></textarea>
+					
+					<input type="submit" name="submit_contact_form" value="Submit">
+				</form>
+			</div>
+		</div>
+		<br class="clearfix" />
+	</article>
+	
+</body>
+</html>
